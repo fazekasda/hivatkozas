@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <category field="generic-base"/>
-    <updated>2013-05-17T13:06:10+00:00</updated>
+    <updated>2013-05-17T13:22:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="hu">
@@ -460,7 +460,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="8" et-al-use-first="3" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="false" et-al-min="100" et-al-use-first="10" et-al-use-last="true" entry-spacing="0" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key macro="issued-sort" sort="ascending"/>
