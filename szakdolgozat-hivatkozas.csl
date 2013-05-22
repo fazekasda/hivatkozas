@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <category field="generic-base"/>
-    <updated>2013-05-22T14:15:16+00:00</updated>
+    <updated>2013-05-22T14:18:04+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="hu">
@@ -414,7 +414,7 @@
   <macro name="container-title">
     <choose>
       <if type="bill legal_case legislation" match="none">
-        <text variable="container-title" font-style="italic"/>
+        <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
       </if>
       <else>
         <group delimiter=" " prefix=", ">
