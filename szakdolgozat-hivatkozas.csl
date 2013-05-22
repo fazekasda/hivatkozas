@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="sociology"/>
     <category field="generic-base"/>
-    <updated>2013-05-19T17:51:41+00:00</updated>
+    <updated>2013-05-22T14:15:16+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="hu">
@@ -164,7 +164,7 @@
       <else>
         <choose>
           <if variable="DOI">
-            <text variable="DOI" prefix=". doi:"/>
+            <text value=""/>
           </if>
           <else>
             <choose>
@@ -339,7 +339,7 @@
         <group prefix="" delimiter=". ">
           <group>
             <text variable="volume" font-style="normal" font-weight="normal"/>
-            <text variable="issue" prefix=". " suffix=". sz."/>
+            <text variable="issue" prefix=", " suffix=":"/>
           </group>
           <text variable="page"/>
         </group>
